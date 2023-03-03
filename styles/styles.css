@@ -168,7 +168,7 @@ body {
 }
 
 .portofolio-frame:hover .blueoverlay{   
-    transform: translateY(0px);
+    transform: translateY(-8px);
 }
 
 .portofolio-image {
