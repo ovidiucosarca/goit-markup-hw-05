@@ -179,7 +179,7 @@ body {
 .blueoverlay {
     width:370px;
     height: 294px;
-    top:0px;
+    top:8px;
     position: absolute;
     overflow: hidden;
     background: var(--blue-portofolio);
@@ -203,7 +203,7 @@ body {
 .test_2{
     height: 110;
     width: 370;
-    background-color:red;
+    background-color:var(--back-color);
 }
 
 
