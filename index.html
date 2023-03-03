@@ -18,6 +18,18 @@
 		<title>Studio</title>
 	</head>
 	<body>
+
+		<div class="modal is-hidden" data-modal>
+			<div class="inner-mod">
+
+				<svg class="close-w" width="11" height="11" data-modal-close>
+					<use 
+						href="svg/symbol-defs.svg#icon-close"
+					></use>
+				</svg>	
+			</div>
+		</div>
+
 		<div class="container-header">
 			<!-- Sectiunea de meniu + date de contact -->
 			<div class="section">
@@ -30,7 +42,7 @@
 
 					<nav class="menu-items">
 						<ul class="unstyled-list main-menu">
-							<li>
+							<li class="menu-place">
 								<a class="link" href="index.html">Studio</a>
 							</li>
 							<li>
@@ -89,7 +101,7 @@
 							EFFECTIVE SOLUTIONS FOR <br />
 							YOUR BUSINESS
 						</h1>
-						<button type="button" class="first-page-button">
+						<button data-modal-open type="button" class="first-page-button">
 							<span class="page-button-name">
 								Request our service</span
 							>
@@ -190,16 +202,19 @@
 						<h2 class="what-we-do">What we do</h2>
 
 						<ul class="unstyled-list what-photos">
-							<li>
+							<li class="wwd-item">
 								<img
-									class="index-image"
+									class="what-image"
 									height="294"
 									width="370"
 									src="images/whatwedo_1.jpg"
 									alt="what we do tablet"
 								/>
+
+								<p class="what-text">DESKTOP APPS</p>
+
 							</li>
-							<li>
+							<li class="wwd-item">
 								<img
 									class="index-image"
 									height="294"
@@ -207,8 +222,9 @@
 									src="images/whatwedo_2.jpg"
 									alt="what we do phone"
 								/>
+								<p class="what-text">MOBILE APPS</p>
 							</li>
-							<li>
+							<li class="wwd-item">
 								<img
 									class="index-image"
 									height="294"
@@ -216,6 +232,7 @@
 									src="images/whatwedo_3.jpg"
 									alt="what we do hex"
 								/>
+								<p class="what-text">DESIGN SOLUTIONS</p>
 							</li>
 						</ul>
 					</section>
@@ -583,5 +600,8 @@
 				</footer>
 			</div>
 		</div>
+
+		<script src="/js/modal.js"></script>
+
 	</body>
 </html>
