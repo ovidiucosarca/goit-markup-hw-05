@@ -206,13 +206,13 @@ body {
 } */
 
 .test_2{
-    /* display: inline; */
+    background-color:red;
 }
 
 
 .portofolio-title {
     background-color: var(--back-color);
-    /* position:relative; */
+    position:relative;
     font-weight: 700;
     font-size: 18px;
     line-height: 36px;
@@ -224,7 +224,7 @@ body {
 
 .portofolio-type {
     background-color: var(--back-color);
-    /* position:relative; */
+    position:relative;
     font-weight: 400;
     font-size: 16px;
     line-height: 30px;
